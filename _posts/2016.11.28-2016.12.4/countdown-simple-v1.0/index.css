@@ -1,0 +1,49 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 1px;
+  background-color: rgba(0, 200, 200, 0.3);
+  text-align: center;
+}
+
+  .time-bar { 
+    margin: 10% auto;
+  }
+    .time-box,.time-text{
+      display: inline-block;
+      width: 35px;
+      font: 14px/1.5 PingFangSC-Regular,Microsoft YaHei,San Francisco,Helvetica Neue,Roboto,arial,sans-serif;
+    }
+    .time-box{
+      border:2px solid #000;
+      background-color: #fff;
+    }
+    
+  
+  .btn-box{
+    padding-bottom: 20px;
+  }
+  .start-btn,.pause-btn{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border:none;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  .pause-btn{
+    background-color: #000;
+    color: #fff
+  }
+  .start-pause-btn:hover{
+    background-color: #00b9ff;
+  }
+  
+  .hide{
+    display: none;
+  }
+  
